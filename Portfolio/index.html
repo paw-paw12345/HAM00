@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discover Ghana</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #d62828;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1000px;
+      margin: 30px auto;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    
+    .text-side {
+      flex: 1 1 60%;
+      padding: 30px;
+    }
+
+    
+    .image-side {
+      flex: 1 1 40%;
+      background-image: url('https://i.pinimg.com/1200x/ad/c5/5f/adc55f5bc90ce8817320e98c2599a3e3.jpg');
+      background-size: cover;
+      background-position: center;
+      min-height: 400px;
+    }
+
+    h2 {
+      color: #d62828;
+      border-bottom: 2px solid #fcbf49;
+      padding-bottom: 5px;
+    }
+
+    section {
+      background-color: #f0f0f0;
+      border-left: 5px solid #d62828;
+      padding: 15px;
+      margin: 20px 0;
+      border-radius: 6px;
+      font-size: 16px;
+      line-height: 1.6;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background-color: #003049;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 768px) {
+      main {
+        flex-direction: column;
+      }
+
+      .image-side {
+        min-height: 250px;
+      }
+
+      .text-side {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Discover Ghana</h1>
+    <p>Let us explore the amazing things of West Africa and the wonderful culture of this country.</p>
+  </header>
+
+  <main>
+    <div class="text-side">
+      <h2>Welcome</h2>
+      <p>Ghana is a peaceful country in West Africa known for its rich culture, history, hospitality, and gold.</p>
+
+      <section>Ghana gained independence in 1957 — the first African country to gain independence.</section>
+      <section>Home to top universities like University of Ghana and KNUST.</section>
+      <section>Visit Cape Coast Castle, Kakum National Park, Osu Castle, Elmina Castle, and Lake Volta.</section>
+      <section>Enjoy dishes like jollof rice, banku, waakye, fufu, dzemple, yakeyake, amotu, and fufu.</section>
+    </div>
+
+    <div class="image-side"></div>
+  </main>
+
+  <footer>
+    © 2025 Paul Adewutor. All rights reserved
+  </footer>
+
+</body>
+</html>
